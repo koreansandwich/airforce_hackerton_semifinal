@@ -15,6 +15,23 @@
 
 ---
 
+### 🧰 Tech Stack
+
+#### Language & Framework
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![YOLOv5/7/11](https://img.shields.io/badge/YOLOv11s-FFCC00?style=for-the-badge&logo=github&logoColor=black)
+
+#### Data Processing & Visualization
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+#### Environment
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+
+---
+
 ## ⚙️ 전체 파이프라인 흐름
 
 ### 1. 데이터 준비 및 분석
