@@ -1,0 +1,13 @@
+# Step 1: 데이터셋 경로 지정
+# - 이미지 디렉토리 및 라벨 디렉토리 경로 설정
+
+# Step 2: 전체 데이터셋 리스트 생성
+# - 이미지 파일 리스트와 라벨 파일 리스트를 모두 불러옴
+# - 파일명이 일치하는 경우만 유효 데이터로 간주
+
+# Step 3: 무작위로 Train/Validation 비율 지정하여 분할
+# - ex: 80% Train, 20% Validation
+# - random.shuffle로 순서 무작위화 후 slicing
+
+# Step 4: 각각의 리스트를 폴더에 저장 (copy or symlink)
+# - train/images, train/labels, val/images, val/labels 구조 생성
