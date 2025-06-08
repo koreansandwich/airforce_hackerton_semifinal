@@ -1,0 +1,18 @@
+# Step 1: 학습된 YOLOv11s 모델 가중치 불러오기
+# - 소형 결함 모델(crop 기반) + 대형 결함 모델(resize 기반)
+
+# Step 2: 테스트 이미지 전처리
+# - crop: 1024x1024로 stride=512 설정하여 타일링
+# - resize: 전체 이미지를 1280x1280으로 변환
+
+# Step 3: 두 모델 각각에 대해 추론 수행
+# - 이미지별로 bbox와 confidence score 추출
+
+# Step 4: confidence threshold 적용
+# - 실험 결과 최적 threshold는 0.1로 설정
+
+# Step 5: IOU Merge 적용
+# - IOU threshold=0.01로 설정하여 겹치는 bbox 병합
+
+# Step 6: 최종 예측 결과를 CSV로 저장
+# - 이미지명, 클래스, confidence, 좌표(x1,y1,x2,y2) 포맷
