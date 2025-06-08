@@ -1,0 +1,10 @@
+# Step 1: class 4와 5만 남기도록 라벨 필터링
+# - 모든 라벨 파일을 순회하면서 class 4와 5만 추출하여 저장
+
+# Step 2: 원본 이미지를 1280x1280으로 리사이즈
+# - 이미지 비율에 맞춰 interpolation으로 축소
+
+# Step 3: bbox 좌표를 리사이즈 비율에 맞게 변환
+# - YOLO 포맷의 좌표(x_center, y_center, width, height)를 비율에 따라 수정
+
+# Step 4: 변환된 이미지와 라벨을 새로운 디렉토리에 저장
